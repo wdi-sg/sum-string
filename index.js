@@ -2,7 +2,7 @@ const command = process.argv[2];
 const input = process.argv[3].split('');
 
 const charChecker = (elem) => {return (elem.charCodeAt(0) != 45 && (elem.charCodeAt(0) < 48 || elem.charCodeAt(0) > 57))};
-const charReducer = (acc, elem) => acc + (elem.charCodeAt(0) - 96);
+const charReducer = (acc, elem) => acc + (elem.toLowerCase().charCodeAt(0) - 96);
 let resultNum = 0, resultChar = 0;
 
 switch (command) {
