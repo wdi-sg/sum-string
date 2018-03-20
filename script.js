@@ -1,6 +1,7 @@
 var str = process.argv[2];
 var sum = 0;
 
+`HELPER FUNCTIONS`
 // a-z: 97 to 122, A-Z: 65-90
 function isLetter(charCode) {
   if ( 97 <= charCode && charCode <= 122) {
