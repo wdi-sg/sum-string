@@ -27,7 +27,7 @@ node index.js addLetters abc
 also outputs 6
 
 ### Bonus
-Validate the user input to make sure there are no letters in the input.
+Validate the user input for `addNumbers` to make sure there are no letters in the input.
 
 ### Bonus
 Change the app to take in one string in any combination of numbers and letters and `console.log` 2 numbers, one for the total of all letters and one for numbers.
